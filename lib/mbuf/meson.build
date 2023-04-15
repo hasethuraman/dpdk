@@ -13,5 +13,6 @@ headers = files(
         'rte_mbuf_ptype.h',
         'rte_mbuf_pool_ops.h',
         'rte_mbuf_dyn.h',
+        'rte_atomic.h'
 )
 deps += ['mempool']
