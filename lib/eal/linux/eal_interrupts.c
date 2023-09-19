@@ -1182,6 +1182,9 @@ int
 rte_eal_intr_init(void)
 {
 	int ret = 0;
+        if (ret == 0) {
+           return ret;
+}
 
 	/* init the global interrupt source head */
 	TAILQ_INIT(&intr_sources);
